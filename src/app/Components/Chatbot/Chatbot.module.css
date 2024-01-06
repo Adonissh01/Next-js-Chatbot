@@ -1,0 +1,139 @@
+/* chatContainer styles */
+.chatContainer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 2rem; /* Add some margin if needed to avoid sticking to the edges */
+  margin-right: 3rem;
+  align-self: flex-end;
+
+  width: 25rem;
+  height: 33.5rem;
+  display: flex;
+  flex-direction: column;
+  
+
+
+   animation: slideUp 0.5s ease-in-out;
+
+  border: 0.5px solid #d8d8d8;
+ 
+  border-radius: 20px;
+  
+  
+
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
+.chatbotTop {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5BC4BE;
+  color: white;
+
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+
+  padding: 1rem;
+}
+
+.chatbotTopLeft {
+  display: flex;
+  flex-direction: row;
+
+  gap: 1rem;
+}
+.chatbotTop img {
+  width: 30px;
+  height: auto;
+}
+.closeButton {
+  border: black;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+}
+.closeButton :hover {
+  cursor: pointer;
+}
+/* formContainer styles */
+.chatContainer .formContainer {
+  display: flex;
+  margin-bottom: 0rem;
+  height: 3rem;
+}
+
+/* input styles */
+.chatContainer .formContainer input {
+  width: 100%;
+  border-style: none;
+
+  /* Include styles from form-component-style mixin */
+  border-radius: 10px;
+  padding: 0.5em;
+  font-size: 1em;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+  .chatContainer .formContainer input:focus {
+    outline: none;
+  }
+}
+
+/* button styles */
+.chatContainer .formContainer button {
+  color: #393e46;
+  background-color: white;
+  border-style: none;
+  /* Include styles from form-component-style mixin */
+  border-radius: 10px;
+  padding: 0.5em;
+  font-size: 1em;
+
+  .chatContainer .formContainer button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+.toggleButton {
+  cursor: pointer;
+background-color: #5BC4BE;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+color: white;
+  
+  display: flex;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4rem;
+  margin-bottom: 2rem;
+  border-radius: 50px;
+  
+  
+  border: none;
+}
+
+
+.submitbutton {
+  margin-right: 0.5rem;
+  width: 50px;
+  height: auto;
+}
+

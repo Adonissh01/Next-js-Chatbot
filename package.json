@@ -9,14 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/node": "20.10.5",
     "@types/react": "18.2.45",
-    "@types/react-dom": "18.2.18",
+    "@types/react-dom": "^18.2.18",
+    "create-route": "^0.0.0-beta.0",
     "eslint": "8.56.0",
     "eslint-config-next": "14.0.4",
     "next": "14.0.4",
+    "next-i18next": "^15.1.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.69.6",
+    "scss": "^0.2.4",
+    "swr": "^2.2.4",
     "typescript": "5.3.3"
   }
 }

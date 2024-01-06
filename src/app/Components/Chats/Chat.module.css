@@ -1,0 +1,113 @@
+/* Variables */
+
+/* Mixins */
+/* The mixins are converted to classes since CSS does not have native support for mixins */
+.bot {
+  background: #ffffff;
+  color:#393e46 ;
+  align-self: flex-start;
+  overflow: hidden;
+  
+}
+
+.user {
+  background: #ffffff;
+  color: black;
+  align-self: flex-end;
+  
+}
+
+/* Styles */
+.messageContainer {
+  overflow-y:auto;
+  height: 33rem;
+  background-color: #45474d;
+  
+}
+
+.messageContainer > div {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.message {
+  max-width: 25rem;
+  padding: 0.5em;
+  border-radius: 17px;
+  overflow-wrap: break-word;
+  margin: 1rem;
+  background-color: #45474d;
+  color: black;
+  
+  
+}
+
+.user {
+  background: #ffffff;
+  color: #45474d;
+  align-self: flex-end;
+  margin:0.5rem;
+}
+
+.bot {
+  background: #ffffff;
+  color: black;
+  align-self: flex-start;
+}
+
+.options {
+  
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.5rem;
+  
+  
+}
+
+.options > div:first-child {
+  font-size: 1.3em;
+  
+  transform: rotate(90deg);
+  
+  
+  
+}
+
+.options > div:first-child i {
+  color: #393e46;
+  animation: arrow-move 1.2s infinite;
+  
+  
+}
+
+@keyframes arrow-move {
+  0% {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(4px);
+  }
+}
+
+.options p {
+  margin-top: 1rem;
+  padding: 0.5em;
+  margin-right: 0.5em;
+  background: #e5dfdf;
+  color: #101318;
+  border-radius: 17px;
+}
+
+.options p:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.dummyDiv {
+  padding: 0.5em 0;
+}

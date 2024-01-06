@@ -1,0 +1,27 @@
+{
+    "0": {
+      "purpose": "specify field",
+      "message": "Nice to meet you, %s! What would you like to know about SVG",
+      "options": ["Services", "Jobs", "About us", "Contact us"]
+    },
+    "services": {
+      "purpose": "specify experience",
+      "message": "This is the list of our services, which one are you interested in?",
+      "options": ["Smart Locker", "Smart Building", "Video Guarding", "Web-Based Software Solutions", "Fleet Management"]
+    },
+    "jobs": {
+      "purpose": "specify experience",
+      "message": "These are our list of jobs, pick the one that best suits you",
+      "options": ["UI UX designer", "Frontend Developer", "Backend Developer", "Data Analyst", "DevOps Engineer"]
+    },
+    "about": {
+      "purpose": "More info",
+      "message": "Smartly networked, living and working comfort increases significantly. During the week, the bath is already warmed up in the morning."
+    },
+    "default": {
+      "purpose": "More info",
+      "message": "For more info kindly",
+      "options": ["Contact us"]
+    }
+  }
+  
